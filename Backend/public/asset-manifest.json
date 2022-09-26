@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3e6fafd7.css",
+    "main.js": "/static/js/main.1514811e.js",
+    "static/js/143.8930e178.chunk.js": "/static/js/143.8930e178.chunk.js",
+    "static/js/409.1face5d5.chunk.js": "/static/js/409.1face5d5.chunk.js",
+    "static/js/16.a3a6770d.chunk.js": "/static/js/16.a3a6770d.chunk.js",
+    "static/js/513.e70ca289.chunk.js": "/static/js/513.e70ca289.chunk.js",
+    "static/js/417.b6fc38bc.chunk.js": "/static/js/417.b6fc38bc.chunk.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/js/125.13d6ce71.chunk.js": "/static/js/125.13d6ce71.chunk.js",
+    "static/js/565.ec5da38b.chunk.js": "/static/js/565.ec5da38b.chunk.js",
+    "static/media/logo.png": "/static/media/logo.aa69d06ae204ad1f4453.png",
+    "static/media/Holders.png": "/static/media/Holders.d7ec975aa0efaa01df7d.png",
+    "static/media/Whale.png": "/static/media/Whale.4d1d782d98375adeed78.png",
+    "static/media/Plus.png": "/static/media/Plus.caaef3025ae4fe9dd793.png",
+    "static/media/Home.png": "/static/media/Home.23d41aa245bfd20f1059.png",
+    "static/media/Calculator.png": "/static/media/Calculator.41971cb13c56d4e2e13c.png",
+    "index.html": "/index.html",
+    "main.3e6fafd7.css.map": "/static/css/main.3e6fafd7.css.map",
+    "main.1514811e.js.map": "/static/js/main.1514811e.js.map",
+    "143.8930e178.chunk.js.map": "/static/js/143.8930e178.chunk.js.map",
+    "409.1face5d5.chunk.js.map": "/static/js/409.1face5d5.chunk.js.map",
+    "16.a3a6770d.chunk.js.map": "/static/js/16.a3a6770d.chunk.js.map",
+    "513.e70ca289.chunk.js.map": "/static/js/513.e70ca289.chunk.js.map",
+    "417.b6fc38bc.chunk.js.map": "/static/js/417.b6fc38bc.chunk.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map",
+    "125.13d6ce71.chunk.js.map": "/static/js/125.13d6ce71.chunk.js.map",
+    "565.ec5da38b.chunk.js.map": "/static/js/565.ec5da38b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e6fafd7.css",
+    "static/js/main.1514811e.js"
+  ]
+}
