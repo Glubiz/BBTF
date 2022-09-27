@@ -488,12 +488,7 @@ header > div > a {
   padding-bottom: 0.5rem;
 }
 
-header > div > a:hover {
-  border-bottom-width: 2px;
-  border-color: rgba(0, 165, 245, .75);
-}
-
-header > div > img {
+header > div > a > img {
   max-height: 3.5rem;
 }
 
@@ -513,6 +508,23 @@ input::-webkit-outer-spin-button,
     input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom-width: 2px;
+  border-color: rgba(108, 117, 125, .25);
+}
+
+td, th {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 *, ::before, ::after {
@@ -629,11 +641,16 @@ input::-webkit-outer-spin-button,
   border-color: rgba(108, 117, 125, .25);
 }
 
+.nav > a:hover {
+  border-bottom-width: 2px;
+  border-color: rgba(0, 165, 245, .75);
+}
+
 .toggle {
   display: flex;
   align-items: center;
-  width: 5rem;
-  height: 3rem;
+  width: 4.5rem;
+  height: 2rem;
   border-radius: 2rem;
   background-color: rgba(0, 165, 245, .25);
 }
@@ -664,8 +681,8 @@ input::-webkit-outer-spin-button,
 .toggle__ball {
   border-radius: 9999px;
   background-color: rgba(0, 165, 245, 1);
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 1.75rem;
+  aspect-ratio: 1/1;
   transition: all .5s;
   position: absolute;
 }
@@ -673,14 +690,14 @@ input::-webkit-outer-spin-button,
 @media (max-width: 56.25em) {
   .toggle__ball {
     width: 3.5rem;
-    height: 3.5rem;
+    aspect-ratio: 1/1;
   }
 }
 
 @media (max-width: 37.5em) {
   .toggle__ball {
     width: 3rem;
-    height: 3rem;
+    aspect-ratio: 1/1;
   }
 }
 
@@ -689,7 +706,7 @@ input::-webkit-outer-spin-button,
 }
 
 .toggle > input[type=checkbox]:checked + .toggle__ball {
-  margin-left: 2.5rem;
+  margin-left: 2.65rem;
 }
 
 @media (max-width: 56.25em) {
@@ -729,16 +746,16 @@ input::-webkit-outer-spin-button,
   width: 50%;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .w-1\/6 {
   width: 16.666667%;
 }
 
 .w-5\/6 {
   width: 83.333333%;
-}
-
-.w-full {
-  width: 100%;
 }
 
 .flex-row {

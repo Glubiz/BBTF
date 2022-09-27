@@ -10,7 +10,7 @@ const Dashboard = (props) => {
     useEffect(() => {
         const arr = [
             {Data: ['Stats']},
-            {Data: ['First', 'Second', 'Third', 'Fourth']}
+            {Data: ['First', 'Second', 'Third']}
         ]
         setStats(prev => prev = arr)
     },[])
@@ -21,7 +21,7 @@ const Dashboard = (props) => {
                 <Table 
                     TableID="Stats"
                     TableRef={TableRef}
-                    Headers={["Stats"]}
+                    Headers={['', 'Stats', '']}
                     TableData={Stats}
                     TableStyle="Horizontal"
                 />  

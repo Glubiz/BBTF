@@ -54,11 +54,8 @@
         @apply px-4;
         @apply py-2;
     }
-    header > div > a:hover{
-        @apply border-b-2;
-        @apply border-primary-700;
-    }
-    header > div > img{
+    
+    header > div > a > img{
         @apply max-h-14;
     }
     input{
@@ -73,6 +70,19 @@
     input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
+    }
+    table{
+        @apply w-full;
+        border-collapse: collapse;
+    }
+    tr{
+        @apply border-b-2;
+        @apply border-text-300;
+    }
+    td, th{
+        @apply py-2;
+        @apply px-4;
+
     }
 }
 
@@ -141,12 +151,15 @@
         @apply border-b-2;
         @apply border-text-300;
     }
-
+    .nav > a:hover{
+        @apply border-b-2;
+        @apply border-primary-700;
+    }
     .toggle{
         @apply flex;
         @apply items-center;
-        width: 5rem;
-        height: 3rem;
+        width: 4.5rem;
+        height: 2rem;
         border-radius: 2rem;
         @apply bg-primary-300;
     }
@@ -175,8 +188,8 @@
     .toggle__ball{
         @apply rounded-full;
         @apply bg-primary-900;
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 1.75rem;
+        aspect-ratio: 1/1;
         transition: all .5s;
         position: absolute;
     }
@@ -184,14 +197,14 @@
     @media (max-width: 56.25em) {
         .toggle__ball {
           width: 3.5rem;
-          height: 3.5rem;
+          aspect-ratio: 1/1;
         }
     }
 
     @media (max-width: 37.5em) {
         .toggle__ball {
           width: 3rem;
-          height: 3rem;
+          aspect-ratio: 1/1;
         }
     }
 
@@ -200,7 +213,7 @@
     }
 
     .toggle > input[type=checkbox]:checked + .toggle__ball {
-        margin-left: 2.5rem;
+        margin-left: 2.65rem;
     }
 
     @media (max-width: 56.25em) {

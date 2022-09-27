@@ -8,16 +8,15 @@ const Nav = () => {
 
     return (
         <>
-            <NavLink to="/"
-                     className={splitLocation[1] === "" ? "chosen " : ""}>
-                Home
-            </NavLink>
             <NavLink to="/Calculator"
-                     className={splitLocation[1] === "Calculator" ? "chosen " : ""}>
+                className={splitLocation[1] === "Calculator" ? "chosen " : ""}>
                 Calculator
             </NavLink>
             <a href="https://www.bbtftoken.com" target="_blank" rel="noreferrer">
                 To BBTF
+            </a>
+            <a href="https://www.bbtftoken.com" target="_blank" rel="noreferrer">
+                To MP
             </a>
         </>
     )
