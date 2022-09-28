@@ -7,11 +7,17 @@ import Toggle from './../components/Form/Toggle'
 
 const Calculator = () => {
     const [StateToggle, setStateToggle] = useState(true)
+    const [Price, setPrice] = useState(true)
+
     
     const UpdateStateToggle = () => {
         setStateToggle(prevValue =>
             prevValue = !prevValue
         )
+    }
+
+    const UpdatePrice = (Value) => {
+        setPrice(prev => prev = Value)
     }
 
     return(
@@ -29,13 +35,14 @@ const Calculator = () => {
                         Name="Price"
                         Value="0.008"
                         Label="Set Price"
+                        Update={UpdatePrice}
                     />
                 </InputBox>
-                <InputBox Header="Price">
+                <InputBox Header="Threshold">
                     <NumberInput 
-                        Name="Price"
-                        Value="0.008"
-                        Label="Set Price"
+                        Name="Threshold"
+                        Value="123"
+                        Label="Set Threshold"
                     />
                 </InputBox>
                 <InputBox Header="Price">

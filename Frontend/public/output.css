@@ -457,6 +457,11 @@ h3 {
   line-height: 2rem;
 }
 
+h4 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 a {
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
@@ -525,6 +530,7 @@ td, th {
   padding-bottom: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  text-align: left;
 }
 
 *, ::before, ::after {
@@ -639,6 +645,14 @@ td, th {
 .chosen {
   border-bottom-width: 2px;
   border-color: rgba(108, 117, 125, .25);
+}
+
+.error {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: rgba(239, 68, 68, .5);
 }
 
 .nav > a:hover {

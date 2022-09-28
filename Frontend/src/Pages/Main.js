@@ -9,8 +9,17 @@ const Dashboard = (props) => {
 
     useEffect(() => {
         const arr = [
-            {Data: ['Stats']},
-            {Data: ['First', 'Second', 'Third']}
+            {Data: ['Main']},
+            {Data: ['Price', '0.001', 'xx%']},
+            {Data: ['Market Cap', '1M', 'xx%']},
+            {Data: ['Holders', '604.232', 'xx%']},
+            {Data: ['Volume']},
+            {Data: ['Buy / Sell', '1M', 'xx%']},
+            {Data: ['Transfer', '1M', 'xx%']},
+            {Data: ['LP']},
+            {Data: ['Threshold', '1000 BNB', '']},
+            {Data: ['Progress', '103 BNB', '']},
+            {Data: ['Last trigger', '17/9-22', '']},
         ]
         setStats(prev => prev = arr)
     },[])
@@ -21,7 +30,7 @@ const Dashboard = (props) => {
                 <Table 
                     TableID="Stats"
                     TableRef={TableRef}
-                    Headers={['', 'Stats', '']}
+                    Headers={['', 'Stat', 'Change']}
                     TableData={Stats}
                     TableStyle="Horizontal"
                 />  
